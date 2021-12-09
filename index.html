@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pic-in-Pic</title>
+  </head>
+  <body>
+    <h1>
+      Pic-in-Pic <br />
+      Video
+    </h1>
+    <!-- Video -->
+    <div class="stream-buttons">
+      <video
+        src=""
+        id="stream"
+        controls
+        height="360"
+        width="640"
+        hidden
+      ></video>
+      <div class="button-container">
+        <button id="btn-stream-start">Choose a video <br />to stream</button>
+      </div>
+      <div class="button-container">
+        <button id="btn-stream-pic">START <br />Pic-in-Pic</button>
+      </div>
+    </div>
+
+    <!-- Scipts -->
+    <script src="script.js"></script>
+  </body>
+</html>
